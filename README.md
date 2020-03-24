@@ -21,7 +21,7 @@ Mit Ausnahme von `.github/workflows` enhalten alle Ordner Beispieldateien, die s
 
 ## Abgabe
 
-**Wichtig:** Die Abgabe Ihrer Ausarbeitung erfolgt über den Issue Tracker dieses repositories. Erstellen Sie _vor Ablauf ihrer Deadline_ ein Issue, in dem Sie ihre kompilierte Projektbeschreibung als Anhang beifügen und mir (@joergbrech) das Issue zur Bearbeitung zuweisen.
+**Wichtig:** Die Abgabe Ihrer Ausarbeitung erfolgt über den Issue Tracker dieses repositories. Erstellen Sie _vor Ablauf ihrer Deadline_ ein Issue, in dem Sie ihre **kompilierte Projektbeschreibung als Anhang beifügen** und mir (@joergbrech) das Issue zur Bearbeitung zuweisen.
 
 Folgende Bedingungen müssen zusätzlich erfüllt sein:
 
