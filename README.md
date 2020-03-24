@@ -15,10 +15,6 @@ Dies ist der Starter Code für ihre Ausarbeitung.  Die Ordnerstruktur ist wie fo
 
 Mit Ausnahme von `.github/workflows` enhalten alle Ordner Beispieldateien, die sie nach Belieben löschen oder abändern können. Die *Ordnerstruktur* sollte aber erhalten bleiben.
 
-## Projektbeschreibung
-
-...
-
 ## Abgabe
 
 **Wichtig:** Die Abgabe Ihrer Ausarbeitung erfolgt über den Issue Tracker dieses repositories. Erstellen Sie _vor Ablauf ihrer Deadline_ ein Issue, in dem Sie ihre **kompilierte Projektbeschreibung als Anhang beifügen** und mir (@joergbrech) das Issue zur Bearbeitung zuweisen.
@@ -27,7 +23,7 @@ Folgende Bedingungen müssen zusätzlich erfüllt sein:
 
  - :pencil2: Ändern Sie den Titel dieser `README.md` Datei entsprechend ihres Projekttitels um. 
 
- - :clipboard: Kopieren Sie ihre Projektbeschreibung aus der vorherigen Aufgabe in den Abschnitt "Projektbeschreibung" von dieser `README.md` Datei.
+ - :clipboard: Kopieren Sie ihre Projektbeschreibung aus der vorherigen Aufgabe in dieses Repository.
 
  - :speech_balloon: Der Quellcode muss gut dokumentiert und fehlerfrei ausführbar sein.
 
