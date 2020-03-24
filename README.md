@@ -1,6 +1,8 @@
 # Modellbildung und Simulation 2 - Ausarbeitung
 
-Dies ist der Starter Code für ihre Ausarbeitung. Bitte ändern Sie den Titel dieser Datei entsprechend ihres Projekttitels um. 
+![CI](https://github.com/joergbrech/modsim2-ausarbeitung/workflows/CI/badge.svg)
+
+Dies ist der Starter Code für ihre Ausarbeitung. 
 
 |  Ordner   |  Beschreibung   |
 | --- | --- |
@@ -8,6 +10,7 @@ Dies ist der Starter Code für ihre Ausarbeitung. Bitte ändern Sie den Titel di
 | `src`  | Alle Quelldateien eurer entwickelten Programme |
 | `tests` | *Optional:* Unit tests für eure entwickelten Funktionen in `src` |
 
+Alle Ordner enthalten Beispieldateien, die sie nach Belieben löschen oder abändern können.
 
 ## Projektbeschreibung
 
@@ -19,18 +22,37 @@ Die Abgabe Ihrer Ausarbeitung erfolgt über den Issue Tracker dieses repository.
 
 Folgende Bedingungen müssen zusätzlich erfüllt sein:
 
- - Ändern Sie den Titel dieser `README.md` Datei.
+ - :pencil2: Ändern Sie den Titel dieser `README.md` Datei entsprechend ihres Projekttitels um. 
 
- - :clipboard: Kopieren Sie ihre Projektbeschreibung aus der vorherigen Aufgabe in den Abschnitt "Projektbeschreibung" von dieser `README.md` Datei. :clipboard:
+ - :clipboard: Kopieren Sie ihre Projektbeschreibung aus der vorherigen Aufgabe in den Abschnitt "Projektbeschreibung" von dieser `README.md` Datei.
 
- - :speech_balloon: Der Quellcode muss gut dokumentiert und fehlerfrei ausführbar sein. :speech_balloon:
+ - :speech_balloon: Der Quellcode muss gut dokumentiert und fehlerfrei ausführbar sein.
 
- - :exclamation: Der Latexcode muss kompilierbar sein. :exclamation:
+ - :exclamation: Der Latexcode muss kompilierbar sein.
 
 
 ## Zusatzinformationen
+
+
+<details>
+
+<summary>Was gehört unter Versionskontrolle und was nicht.</summary>
+
+Stellen Sie folgende Dateien unter Versionskontrolle:
+
+ - Alle von Menschen lesbare Dateien (ASCII), die sie zur Bearbeitung ihres Projektes erstellt haben. Das sind zum Beispiel `*.tex` Dateien oder `*.m` Dateien.
+ - Binäre Dateien wie Bilder, die sie in ihrer Dokumentation verwenden.
+
+Stellen Sie folgende Dateien **nicht** unter Versionskontrolle:
+
+ - Alle automatisch erstellten Dateien. Bei Latex sind das zum Beispiel Dateien mit der Endung `*.aux` oder `*.tmp`.
+ - Große binäre Dateien, die sich regelmäßig ändern. **Dazu gehört die PDF-Version ihrer Dokumentation**. Unter Versionskontrolle gehören nur die `*.tex` Dateien, die sie brauchen um das Dokument zu kompilieren. Das Kompilieren des Dokumentes kann jedes Teammitglied lokal machen, oder er kann sich das automatisch erstellte Dokument unter dem Reiter *Actions* herunterladen, siehe "Automatische Tests".
+
+</details>
+
 <details>
 <summary>Teamarbeit mit GIT</summary>
+
 
 Sie arbeiten gemeinsam als Team an einem Projekt. Es empfiehlt sich vorab die Aufgaben zu verteilen. Der Issue Tracker bietet sich hier als unterstützendes Tool an.
 
@@ -81,8 +103,22 @@ Angenommen Maja möchte eine bestimmte Teilaufgabe bearbeiten, z.B. das Kapitel 
 </details>
 
 <details>
+
 <summary>Automatische Tests</summary>
+
+Dieses repository ist so vorbereitet, dass mit jedem *push* und jedem *Pull Request* zwei Aktionen automatisiert in der cloud durchgeführt werden, zum Einen wird das PDF-Dokument kompiliert, und zum anderen werden automatisch unit tests für den Matlab Code durchgeführt. Diese automatisierten Aktionen sind wesentliche Bestandteile von [Continuous Integration](https://de.wikipedia.org/wiki/Kontinuierliche_Integration).
+
+### Automatisches Erstellen der Projektdokumentation
+
+Das Latex-Dokument wird automatisch online erstellt. Voraussetzung hierf"ur ist, dass der Dokument der Hauptdatei `main.tex` lautet. Das kompilierte Dokument können Sie sich als Artefakt herunterladen, indem Sie unter dem Reiter *Actions* den entsprechenden *commit* anklicken.
+
+### Automatische unit tests.
+
+Diese Funktionalität ist optional aber empfohlen.
+
 </details>
+
+## Nützliche Links
 
  - [Git Cheatsheet](https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf)
  - [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
