@@ -19,13 +19,13 @@ Die Abgabe Ihrer Ausarbeitung erfolgt über den Issue Tracker dieses repository.
 
 Folgende Bedingungen müssen zusätzlich erfüllt sein:
 
- - Ändern Sie den Titel dieser `README.md` Datei.
+ - :pencil2: Ändern Sie den Titel dieser `README.md` Datei.
 
- - :clipboard: Kopieren Sie ihre Projektbeschreibung aus der vorherigen Aufgabe in den Abschnitt "Projektbeschreibung" von dieser `README.md` Datei. :clipboard:
+ - :clipboard: Kopieren Sie ihre Projektbeschreibung aus der vorherigen Aufgabe in den Abschnitt "Projektbeschreibung" von dieser `README.md` Datei.
 
- - :speech_balloon: Der Quellcode muss gut dokumentiert und fehlerfrei ausführbar sein. :speech_balloon:
+ - :speech_balloon: Der Quellcode muss gut dokumentiert und fehlerfrei ausführbar sein.
 
- - :exclamation: Der Latexcode muss kompilierbar sein. :exclamation:
+ - :exclamation: Der Latexcode muss kompilierbar sein.
 
 
 ## Zusatzinformationen
