@@ -31,3 +31,25 @@ jobs:
       with:
         name: documentation
         path: docs/main.pdf
+
+  # run unit tests
+  unit-tests:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Install Octave
+      run: |
+        sudo apt-get -y -qq install octave
+
+    - name: Install MOxUnit
+      run: |
+        git clone https://github.com/MOxUnit/MOxUnit.git
+        cd MOxUnit
+        make install
+
+    - name: Perform unit tests
+      run: |
+        octave --no-gui --eval "addpath('src');moxunit_set_path;moxunit_runtests('tests')"
