@@ -53,4 +53,4 @@ jobs:
 
     - name: Perform unit tests
       run: |
-        octave --no-gui --eval "addpath(strcat(pwd(),'/src');moxunit_set_path;moxunit_runtests('./tests')"
+        octave --no-gui --eval "addpath(strcat(pwd(),'/src'));moxunit_set_path;moxunit_runtests('./tests')"
