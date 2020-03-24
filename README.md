@@ -2,17 +2,18 @@
 
 ![CI](https://github.com/joergbrech/modsim2-ausarbeitung/workflows/CI/badge.svg)
 
-Dies ist der Starter Code für ihre Ausarbeitung. 
-
 :loudspeaker: **Lesen Sie dieses Dokument vollständig bis zum Ende!** :loudspeaker:
+
+Dies ist der Starter Code für ihre Ausarbeitung.  Die Ordnerstruktur ist wie folgt:
 
 |  Ordner   |  Beschreibung   |
 | --- | --- |
 | `docs` | Latex-Dateien für die Projektdokumentation |
 | `src`  | Alle Quelldateien ihrer entwickelten Programme |
 | `tests` | *Optional:* Unit tests für ihre entwickelten Funktionen in `src` |
+| `.github/workflows` | Skript für Continuous integration (siehe unten). Hier müssen Sie nichts ändern. |
 
-Alle Ordner enthalten Beispieldateien, die sie nach Belieben löschen oder abändern können. Die Ordnerstruktur sollte aber erhalten bleiben.
+Mit Ausnahme von `.github/workflows` enhalten alle Ordner Beispieldateien, die sie nach Belieben löschen oder abändern können. Die *Ordnerstruktur* sollte aber erhalten bleiben.
 
 ## Projektbeschreibung
 
