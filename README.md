@@ -1,7 +1,5 @@
 # Modellbildung und Simulation 2 - Ausarbeitung
 
-![CI](https://github.com/joergbrech/modsim2-ausarbeitung/workflows/CI/badge.svg)
-
 :loudspeaker: **Lesen Sie dieses Dokument vollständig bis zum Ende!** :loudspeaker:
 
 Dies ist der Starter Code für ihre Ausarbeitung.  Die Ordnerstruktur ist wie folgt:
