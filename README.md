@@ -19,7 +19,7 @@ Mit Ausnahme von `.github/workflows` enhalten alle Ordner Beispieldateien, die s
 
 Folgende Bedingungen müssen zusätzlich erfüllt sein:
 
- - :pencil2: Ändern Sie den Titel dieser `README.md` Datei entsprechend ihres Projekttitels um. 
+ - :pencil2: Ändern Sie die Überschrift in dieser `README.md` Datei entsprechend ihres Projekttitels um. 
 
  - :clipboard: Kopieren Sie ihre Projektbeschreibung aus der vorherigen Aufgabe in dieses Repository.
 
